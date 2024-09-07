@@ -2,7 +2,7 @@
 #!desc=跳过部分应用的代理检测
 
 [General]
-skip-proxy = %APPEND% www.baidu.com,yunbusiness.ccb.com,wxh.wo.cn,gate.lagou.com,www.abchina.com.cn,www.shanbay.com,login-service.mobile-bank.psbc.com,mobile-bank.psbc.com,id6.me
+skip-proxy = %APPEND% 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/12, 192.168.0.0/16, 224.0.0.0/3, ::1/128, fc00::/7, fd00::/8, fe80::/10, ff00::/8, 2001::/32, 2001:db8::/32, 2002::/16, ::ffff:0:0:0:0/1, ::ffff:128:0:0:0/1, localhost, *.local, passenger.t3go.cn, e.crashlytics.com, captive.apple.com, app.yinxiang.com, injections.adguard.org, local.adguard.org, cable.auth.com, www.baidu.com, yunbusiness.ccb.com, *.bankcomm.com, *.ccb.com, *.boc.cn, engage.nadav.com.cn, *.psbc.com, yunbusiness.ccb.com, wxh.wo.cn, gate.lagou.com, www.abchina.com.cn, www.shanbay.com, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com, id6.me
 always-real-ip = %APPEND% easy-login.10099.com.cn,*-update.xoyocdn.com,id6.me
 
 # www.baidu.com：网上国网、多看阅读、顺丰金融、广东农信、丰云行、中国银行缤纷生活、通信行程卡app、趣智校园、趣听音乐、光大手机银行、掌上12333、沃视频
