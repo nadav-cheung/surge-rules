@@ -1,0 +1,17 @@
+#!name=Force Global Bing
+#!desc=Stay on global Bing and prevent redirection to cn.bing.com
+#!author=Nadav Cheung
+#!version=1.0
+
+[General]
+skip-proxy = www.bing.com
+
+[Rewrite]
+# Redirect cn.bing.com to www.bing.com
+^https?:\/\/(cn\.)?bing\.com\/(.*) https://www.bing.com/$2 302
+
+[Header Rewrite]
+# Force language and region settings to stay on global Bing
+bing.com:
+  Accept-Language: en-US
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
