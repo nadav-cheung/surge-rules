@@ -1,0 +1,14 @@
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+
+# Surge
+192.168.50.1	ax88u-nas.myhome.ponet
+192.168.50.1	rt-ax88u-f640
+192.168.50.32	nadav-mmp.myhome.ponet
+192.168.50.64	nadav-iphone.myhome.ponet
+192.168.50.120	nadav-watch.myhome.ponet
+192.168.50.128	nadav-macbook-pro.myhome.ponet
+192.168.50.128	nadavs-macbook-pro.local
+
+# homeAssistant
+192.168.50.32	homeassistant.local
