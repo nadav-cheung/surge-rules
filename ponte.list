@@ -3,7 +3,7 @@ DOMAIN-SUFFIX,nadav-mmp.home.ponte
 DOMAIN-SUFFIX,nadav-iphone.home.ponte
 DOMAIN-SUFFIX,nadav-mbp.home.ponte
 DOMAIN-SUFFIX,nadav-watch.home.ponte
-DOMAIN-SUFFIX,myhome.ponet
+DOMAIN-SUFFIX,home.ponte
 IP-CIDR,192.168.50.32/32
 IP-CIDR,192.168.50.33/32
 IP-CIDR,192.168.50.64/32
