@@ -2,7 +2,7 @@
 #!desc=跳过部分应用的代理检测
 
 [General]
-skip-proxy = %APPEND% 192.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 127.0.0.1, localhost, *.local, www.abchina.com.cn
+skip-proxy = %APPEND% 192.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 127.0.0.1, localhost, *.local, www.abchina.com.cn, login-service.mobile-bank.psbc.com, mobile-bank.psbc.com
 always-real-ip = *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, *.battlenet.com.cn, *.battlenet.com, *.blzstatic.cn, *.battle.net, stun.ugreengroup.com
 
 
