@@ -1,0 +1,20 @@
+
+# --- Apple Intelligence / Siri / 搜索（官方文档列出的必须直连的主机名，改为走 PROXY 以便换区）---
+# Siri & Dictation
+DOMAIN,guzzoni.apple.com
+
+# Search services (Siri/Spotlight/Query/Safari/News/Music)
+DOMAIN-SUFFIX,smoot.apple.com
+
+# Private Cloud Compute 中转（Cloudflare/Fastly）
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+
+# Apple Intelligence 扩展
+DOMAIN,apple-relay.apple.com
+
+# --- 你现有的规则 ---
+// Google AMP issue#237
+DOMAIN-SUFFIX,ampproject.org
+
