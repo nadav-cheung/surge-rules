@@ -13,8 +13,7 @@ DOMAIN,cp4.cloudflare.com
 
 # Apple Intelligence 扩展
 DOMAIN,apple-relay.apple.com
-
-# --- 你现有的规则 ---
-// Google AMP issue#237
-DOMAIN-SUFFIX,ampproject.org
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,apple-relay.akamaized.net
+DOMAIN,apple-relay.mask.apple-dns.net
 
