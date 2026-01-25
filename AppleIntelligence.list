@@ -1,0 +1,21 @@
+
+
+DOMAIN-SUFFIX,gateway.icloud.com
+
+# --- Apple Intelligence / Siri / 搜索（官方文档列出的必须直连的主机名，改为走 PROXY 以便换区）---
+# Siri & Dictation
+DOMAIN-SUFFIX,guzzoni.apple.com
+
+# Search services (Siri/Spotlight/Query/Safari/News/Music)
+DOMAIN-SUFFIX,smoot.apple.com
+
+# Private Cloud Compute 中转（Cloudflare/Fastly）
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+
+# Apple Intelligence 扩展
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
