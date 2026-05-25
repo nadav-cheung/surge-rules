@@ -1,0 +1,8 @@
+
+# 登陆到家中
+
+DOMAIN-SUFFIX,nadav.ddns.me
+DOMAIN-SUFFIX,ddns.nadav.com.cn
+DOMAIN-SUFFIX,router.nadav.com.cn
+DOMAIN-SUFFIX,fnnas.nadav.com.cn
+IP-CIDR,192.168.50.0/24

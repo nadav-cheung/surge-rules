@@ -1,0 +1,5 @@
+# DDNS IP检测服务，跳过VPN代理以获取真实公网IP
+
+DOMAIN-SUFFIX,icanhazip.com
+DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,api.ip.sb
