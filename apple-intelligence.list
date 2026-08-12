@@ -1,5 +1,7 @@
 
 
+# DOMAIN-SUFFIX,gateway.icloud.com
+
 # --- Apple Intelligence / Siri / 搜索（官方文档列出的必须直连的主机名，改为走 PROXY 以便换区）---
 # Siri & Dictation
 DOMAIN-SUFFIX,guzzoni.apple.com
