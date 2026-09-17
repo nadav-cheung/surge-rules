@@ -1,3 +1,8 @@
-# login 登陆请求域名
-DOMAIN-SUFFIX,yl.zh.cmbchina.com
-DOMAIN-SUFFIX,paas.cmbchina.com
+# 招商银行登录及相关服务域名
+# 官网、手机银行及业务接口（包含 yl.zh.cmbchina.com、paas.cmbchina.com）
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmbchina.cn
+
+# 官网使用的图片及静态资源域名
+DOMAIN-SUFFIX,cmbimg.com
+DOMAIN-SUFFIX,cmbimg.cn
