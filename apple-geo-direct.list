@@ -1,0 +1,21 @@
+# Apple 地图 / GeoServices（geod）直连规则
+# 作用：避免 geod 的区域配置与地理编码请求经代理后被判定为国际区，
+# 导致中国地址地理编码返回 kCLErrorGeocodeFoundNoResult (code 8)，
+# 进而触发通讯录回退到失效的 http://maps.apple.com/maps?q=... URL。
+#
+# 用法：在 Surge 配置中以 DIRECT 引用，并放在通用 Apple 规则之前：
+# RULE-SET,https://raw.githubusercontent.com/nadav-cheung/surge-rules/refs/heads/main/apple-geo-direct.list,DIRECT,no-resolve
+#
+# 注意：不要使用 DOMAIN-SUFFIX,apple.com,DIRECT，否则会连同 Apple AI、iCloud 等一起直连。
+
+# geod 配置下发 + 地理编码/地图服务
+# 覆盖 configuration.ls.apple.com、gsp-ssl.ls.apple.com、gsp64-ssl.ls.apple.com、
+# gspe19-ssl.ls.apple.com、gspe21-ssl.ls.apple.com 以及 *-cn-ssl.ls.apple.com 等
+DOMAIN-SUFFIX,ls.apple.com
+
+# 定位/地理服务（含中国区 gs-loc-cn.apple.com）
+DOMAIN-SUFFIX,gs-loc.apple.com
+DOMAIN-SUFFIX,gs-loc-cn.apple.com
+
+# Apple 地图网页链接
+DOMAIN-SUFFIX,maps.apple.com
